@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TableRow>
+        <ImageView
+            android:id="@+id/puppy_img"
+            android:layout_height="64dp"
+            android:layout_width="64dp"
+            android:src="@drawable/dog"
+            android:layout_margin="12dp"/>
+        <TextView
+            android:id="@+id/puppy_name"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:layout_marginTop="24dp"
+            android:textSize="24dp"
+            android:text="Rocky"/>
+
+    </TableRow>
+</TableLayout>
